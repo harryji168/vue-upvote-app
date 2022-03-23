@@ -1,10 +1,11 @@
 {
-  "name": "vite-vue3-tailwind-starter",
+  "name": "vue-upvote",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
